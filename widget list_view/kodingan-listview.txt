@@ -1,0 +1,88 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("SAINUR IDRUSSALAM D0219412"),
+        ),
+        body: ListView(
+  children: <Widget>[
+    Container(
+      padding: EdgeInsets.all(15),
+      child: Text('Flutter Widget: Penggunaan ListView Class',
+          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)
+      ),
+    ),
+    Container(
+        padding: EdgeInsets.all(15),
+        child: Text(
+            '''Di malam hari, Udin masih fokus menatap layar monitor menempelkan tangan kirinya di keyboard sembari tangan kanannya meraba mouse. Tiba - tiba muncul getaran dari handphone si Udin, "Ah, mengganggu saja..." ujar Udin yang masih fokus bermain Dota 2 di komputernya.
+
+Sudah menjadi kebiasaan Udin menghiraukan handphone saat mulai kecanduan permainan online tersebut. Pacar si Udin, Icha, sudah maklum saat dia sedang bermain game. Bahkan Udin rela membatalkan wakuncar saat Udin diajak pergi ke warnet bersama teman nya.
+
+Udin memang cinta dengan Icha, tetapi Udin juga cinta kepada Dota 2 yang sudah membuat karakter Udin berubah 180 derajat semenjak kenal dunia game online ini. Sebelumnya Udin dan Icha menjalin hubungan mereka saat masih SMA, dan kebetulan Udin adalah kakak kelas Icha. Saat Udin masih duduk di bangku kelas 3 SMA, Udin masih memperhatikan Icha, masih sering berhubungan layaknya pasangan-pasangan yang lain seperti nonton bioskop, pergi ke rumah Icha yang jaraknya lumayan jauh dari rumah Udin. Memang cinta bisa membutakan pikiran dan pandangan orang, terutama Udin yang rela pergi jauh menjemput Icha dan juga menyisihkan uang jajan demi bertemu dengan Icha. Sama seperti game ini, Udin telah dibutakan Dota 2 dan rela pergi menghiraukan Icha.
+
+Udin meneruskan jenjangnya ke tingkat yang lebih tinggi dengan memasuki bangku perkuliahan. Sejak saat itu, Udin dikenalkan oleh permainan Dota 2 oleh teman-teman barunya. Udin masih tetap berhubungan baik selagi tangannya lihai mengendalikan karakter utama dari permainan tersebut.
+
+"Din, kamu dimana?"
+"Lagi di kampus, Cha. Ada apa?"
+"Boleh ketemu? Di rumahku aja, penting"
+"Kapan?"
+"Besok, ya. Maaf juga sebelumnya karena handphone ku rusak jadi balas SMS lewat handphone teman"
+"Tidak apa-apa"
+
+Singkat pesan pendek Icha ke Udin. Disini Udin merasa panik, apakah Icha akan mengakhiri hubungan mereka? Atau hanya sekedar ingin bertemu? Udin mencoba untuk tenang dengan terus bermain Dota 2 layaknya tidak terjadi sesuatu yang salah.
+
+Hari itu telah datang. Setelah Udin dan Icha menjalin hubungan 1 tahun lebih, akhirnya Icha meminta untuk mengakhirinya dengan alasan Udin sudah berubah. Udin merasa bersalah karena memilih permainan online yang merubah sikap Udin menjadi seolah tak peduli dengan Icha. "Mungkin kita bisa jadi teman baik kan, Din?" ujar Icha melihat muka Udin yang tertampak lesu oleh pernyataan Icha. "Iya, Cha" balas si Udin.
+
+Dalam perjalanan ke rumah, Udin hanya memikirkan kenapa dia bisa berubah?
+
+"Din, dimana? Main yuk!"
+"Otw balik, Do"
+"Ayo main, gue lagi sama anak-anak"
+"Iye"
+
+Percakapan si Udin dan Bodo, teman SMA Udin yang kebetulan satu kelas dengan Udin. Bodo mengajak Udin bersama teman SMA nya pergi nongkrong di tempat biasa mereka berkumpul. Dengan muka lesu dan jarang berbicara, si Bodo penasaran apa yang terjadi pada temannya?
+
+"Kenapa, Din? Lemes banget"
+"..."
+"Heh, kenapa melamun?"
+"Gue putus sama Icha, Do"
+"Kok bisa?"
+
+Seketika suasana seperti kelas SMA nya saat ada seorang guru yang mulai memukul meja dengan keras sembari teriak untuk diam.
+
+"Kayaknya gue kebanyakan main game, Do. Gue jadi cuek banget ke Icha"
+"Syukurin"
+"Kok lo ngeselin, Do?" dengan nada lantang dan tatapan tajam Udin menggeretak Bodo.
+"Bercanda, Din. Yoweslah, masih ada kita disini" ujar Bodo yang coba memulihkan perasaan Udin yang merasa penuh penyesalan di raut wajahnya. Akhirnya Udin pulang lebih awal dan temannya yang lain mengerti kondisi Udin.
+
+Di Malam hari, Udin tergeletak lemas dengan menahan air mata yang memberontak keluar layaknya kerumunan buruh yang ingin menembus pagar pemerintah yang dihadang oleh petugas keamanan. "Gue gak bisa kayak gini terus" dalam hati Udin mencoba dewasa sedikit dan merelakan kepergian Icha. Ia bangun dari ranjang yang sudah basah oleh air mata penyesalan Udin, menghidupkan komputernya, dan kembali bermain Dota 2 bersama teman kampusnya.
+
+"Killing Spree!"
+"Dominating! Double Kill!"
+"Mega Kill! Triple Kill!!!"
+"Unstoppable! Ultra Kill!!! "
+"Wicked Sick! RAMPAGE!!!"
+
+
+
+
+
+Suara yang keras keluar dari headset Udin setelah membunuh 5 musuh sekaligus, "Gile lo, Din. Jago banget" ujar teman-teman Kampus Udin yang ikut bermain bersama Udin. Seperti langit yang setia menunggu hujan reda, muka Udin kembali bersinar layaknya memenangkan undian mobil Sport. Tidak muncul suasana sedih yang mengganggu hari-hari yang sudah ia lalui walaupun ditinggal oleh Icha.
+''',
+            style: TextStyle(fontSize: 16)
+        ),
+    ),
+  ]
+)
+      ),
+    );
+  }
+}
+
